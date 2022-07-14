@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/TheFinalFight.iml" filepath="$PROJECT_DIR$/TheFinalFight.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/TheFinalFight.iml" filepath="$PROJECT_DIR$/.idea/TheFinalFight.iml" />
+>>>>>>> 7e2cec8b (Commit 21, added appropriate folders for rest of HW)
     </modules>
   </component>
 </project>
