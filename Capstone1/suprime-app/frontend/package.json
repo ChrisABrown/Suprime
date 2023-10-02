@@ -1,7 +1,10 @@
 {
   "name": "suprime-app",
+<<<<<<< HEAD
   "version": "1.0.0",
   "description": "In order to run site at root:",
+=======
+>>>>>>> 8ced4c1b ((Frontend): Adjusts reducers to allow for frontend to run properly)
   "main": "index.js",
   "keywords": [],
   "author": "",
