@@ -25,6 +25,7 @@
   "scripts": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "start": "NODE_ENV=production node ./frontend/src/index.js",
     "server": "NODE_ENV=development nodemon ./backend/index.js",
 =======
@@ -36,6 +37,9 @@
     "server": "NODE_ENV=development node ../backend/index.js",
     "start": "react-scripts start",
 >>>>>>> 646cc9a3 ((Frontend): Adds .env and package files to frontend folder)
+=======
+    "start:frontend": "react-scripts start",
+>>>>>>> 6dd16ecb ((App): Adds scripts for concurrently running server and client, adds images for products to Shop page)
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
