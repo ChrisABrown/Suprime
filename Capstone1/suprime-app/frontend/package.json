@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@redux-devtools/extension": "^3.2.5",
+<<<<<<< HEAD
     "@reduxjs/toolkit": "^1.9.6",
 <<<<<<< HEAD
     "axios": "^1.5.1",
@@ -19,6 +20,10 @@
     "nodemon": "^3.0.1",
 =======
     "@testing-library/jest-dom": "^6.1.3",
+=======
+    "@reduxjs/toolkit": "^1.9.7",
+    "@testing-library/jest-dom": "^6.1.4",
+>>>>>>> b2befddd ((Auth): Drops server.js to build conn.js as interface to export db connection)
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.5.1",
     "axios": "^1.5.1",
@@ -28,12 +33,17 @@
     "express": "^4.18.2",
     "moment": "^2.29.4",
     "mongodb": "^6.1.0",
+<<<<<<< HEAD
     "mongoose": "^7.5.3",
 >>>>>>> d16e238b ((Frontend): Adjusts Footer component, adds message and loader components, modifies shop styling)
+=======
+    "mongoose": "^7.6.2",
+>>>>>>> b2befddd ((Auth): Drops server.js to build conn.js as interface to export db connection)
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",
+<<<<<<< HEAD
     "react-router-dom": "^6.16.0",
     "redux": "^4.2.1"
   },
@@ -55,6 +65,14 @@
 =======
     "start:frontend": "react-scripts start",
 >>>>>>> 6dd16ecb ((App): Adds scripts for concurrently running server and client, adds images for products to Shop page)
+=======
+    "react-router-dom": "^6.17.0",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.1"
+  },
+  "scripts": {
+    "start:frontend": "NODE_ENV=development react-scripts start",
+>>>>>>> b2befddd ((Auth): Drops server.js to build conn.js as interface to export db connection)
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
