@@ -28,17 +28,21 @@
     "@testing-library/user-event": "^14.5.1",
     "axios": "^1.5.1",
     "body-parser": "^1.20.2",
-    "concurrently": "^8.2.1",
+    "concurrently": "^8.2.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "moment": "^2.29.4",
     "mongodb": "^6.1.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "mongoose": "^7.5.3",
 >>>>>>> d16e238b ((Frontend): Adjusts Footer component, adds message and loader components, modifies shop styling)
 =======
     "mongoose": "^7.6.2",
 >>>>>>> b2befddd ((Auth): Drops server.js to build conn.js as interface to export db connection)
+=======
+    "mongoose": "^7.6.3",
+>>>>>>> 4d859c45 ((Frontend): Deletes Login component and adds few lines of code for auth in front end mostly env files)
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
