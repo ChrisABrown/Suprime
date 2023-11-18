@@ -76,8 +76,12 @@
     "redux": "^4.2.1"
   },
   "scripts": {
+<<<<<<< HEAD
     "start:frontend": "NODE_ENV=development react-scripts start",
 >>>>>>> b2befddd ((Auth): Drops server.js to build conn.js as interface to export db connection)
+=======
+    "start:frontend": "react-scripts start",
+>>>>>>> f801271b ((Frontend): Adds add to cart button to shop and defines variables for redux store)
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
