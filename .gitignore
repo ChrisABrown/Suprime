@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -128,3 +129,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+=======
+Capstone1/suprime-app/.env.test
+>>>>>>> c0634ea6 ((Tests_Backend): Adds .env.test to .gitignore)
