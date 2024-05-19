@@ -1,93 +1,56 @@
 {
-  "name": "suprime-app",
-<<<<<<< HEAD
-  "version": "1.0.0",
-  "description": "In order to run site at root:",
-=======
->>>>>>> 8ced4c1b ((Frontend): Adjusts reducers to allow for frontend to run properly)
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@auth0/auth0-react": "^2.2.1",
-    "@redux-devtools/extension": "^3.2.5",
-<<<<<<< HEAD
-    "@reduxjs/toolkit": "^1.9.6",
-<<<<<<< HEAD
-    "axios": "^1.5.1",
-    "moment": "^2.29.4",
-    "mongoose": "^7.5.3",
-    "nodemon": "^3.0.1",
-=======
-    "@testing-library/jest-dom": "^6.1.3",
-=======
-    "@reduxjs/toolkit": "^1.9.7",
-    "@testing-library/jest-dom": "^6.1.4",
->>>>>>> b2befddd ((Auth): Drops server.js to build conn.js as interface to export db connection)
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.5.1",
-    "axios": "^1.5.1",
-    "body-parser": "^1.20.2",
-    "concurrently": "^8.2.2",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "moment": "^2.29.4",
-    "mongodb": "^6.1.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "mongoose": "^7.5.3",
->>>>>>> d16e238b ((Frontend): Adjusts Footer component, adds message and loader components, modifies shop styling)
-=======
-    "mongoose": "^7.6.2",
->>>>>>> b2befddd ((Auth): Drops server.js to build conn.js as interface to export db connection)
-=======
-    "mongoose": "^7.6.3",
->>>>>>> 4d859c45 ((Frontend): Deletes Login component and adds few lines of code for auth in front end mostly env files)
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.9.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^8.1.3",
-<<<<<<< HEAD
-    "react-router-dom": "^6.16.0",
-    "redux": "^4.2.1"
-  },
-  "scripts": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "start": "NODE_ENV=production node ./frontend/src/index.js",
-    "server": "NODE_ENV=development nodemon ./backend/index.js",
-=======
-    "start": "NODE_ENV=production node ./frontend/src/index.js --trace warnings",
-    "server": "NODE_ENV=development node ./backend/index.js",
->>>>>>> cc6caa50 ((Backend): Checks to see if server still works before eject in Auth0 branch)
-    "live": "react-scripts start",
-=======
-    "server": "NODE_ENV=development node ../backend/index.js",
-    "start": "react-scripts start",
->>>>>>> 646cc9a3 ((Frontend): Adds .env and package files to frontend folder)
-=======
-    "start:frontend": "react-scripts start",
->>>>>>> 6dd16ecb ((App): Adds scripts for concurrently running server and client, adds images for products to Shop page)
-=======
-    "react-router-dom": "^6.17.0",
-    "react-scripts": "^5.0.1",
-    "redux": "^4.2.1"
-  },
-  "scripts": {
-<<<<<<< HEAD
-    "start:frontend": "NODE_ENV=development react-scripts start",
->>>>>>> b2befddd ((Auth): Drops server.js to build conn.js as interface to export db connection)
-=======
-    "start:frontend": "react-scripts start",
->>>>>>> f801271b ((Frontend): Adds add to cart button to shop and defines variables for redux store)
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1",
-    "react-scripts": "^5.0.1"
+    "name": "suprime-app",
+    "main": "index.js",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@auth0/auth0-react": "^2.2.1",
+      "@redux-devtools/extension": "^3.2.5",
+      "@reduxjs/toolkit": "^1.9.7",
+      "@testing-library/jest-dom": "^6.1.4",
+      "@testing-library/react": "^14.0.0",
+      "@testing-library/user-event": "^14.5.1",
+      "axios": "^1.5.1",
+      "body-parser": "^1.20.2",
+      "concurrently": "^8.2.2",
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "moment": "^2.29.4",
+      "mongodb": "^6.1.0",
+      "mongoose": "^7.6.3",
+      "react": "^18.2.0",
+      "react-bootstrap": "^2.9.0",
+      "react-dom": "^18.2.0",
+      "react-redux": "^8.1.3",
+      "react-router-dom": "^6.17.0",
+      "react-scripts": "^5.0.1",
+      "redux": "^4.2.1"
+    },
+    "scripts": {
+      "start:frontend": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
   }
-}
