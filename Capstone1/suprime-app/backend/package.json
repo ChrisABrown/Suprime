@@ -16,14 +16,14 @@
     "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
+    "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
-    "mocha": "^10.2.0",
-    "mongodb": "^6.3.0",
-    "mongoose": "^7.6.5",
-    "mongoose-unique-validator": "^4.0.0",
-    "nanoid": "^5.0.3",
-    "passport": "^0.6.0",
+    "mocha": "^10.4.0",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "mongoose-unique-validator": "^5.0.0",
+    "nanoid": "^5.0.7",
+    "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^8.0.0"
@@ -39,6 +39,6 @@
     }
   },
   "devDependencies": {
-    "express-session": "^1.17.3"
+    "express-session": "^1.18.0"
   }
 }
