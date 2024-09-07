@@ -1,6 +1,4 @@
-import { composeWithDevTools } from '@redux-devtools/extension'
-import { applyMiddleware, createStore } from 'redux'
-import thunk from 'redux-thunk'
+import {configureStore} from "@reduxjs/toolkit"
 import rootReducer from './reducers/index.js'
 
 const cartItemsFromStorage = localStorage.getItem('cartItems')
@@ -23,12 +21,11 @@ const initialState = {
   user: { userInfo: userInfoFromStorage },
 }
 
-const middleware = [thunk]
 
-const store = createStore(
-  rootReducer,
-  initialState,
-  composeWithDevTools(applyMiddleware(...middleware))
+const store = configureStore({
+reducer:  rootReducer,
+preloadedState: initialState,
+}
 )
 
 export default store
