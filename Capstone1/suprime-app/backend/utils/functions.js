@@ -1,14 +1,9 @@
 import { response } from 'express'
 import mongoose from 'mongoose'
-import '../db/inventory.json' 
-
-
-
-let inventory = '../db/inventory.json'
+import  ItemSchema  from '../DAO/models/Item.js'
+import '../db/inventory.json' assert {type: "json"}
 
 let res = response
-
-const uri = process.env.SUPRIME_DB_URI
 
 
 export const checkUser = (user) => {
@@ -26,7 +21,7 @@ export const checkUser = (user) => {
 
 
 export const fillInventory = () => {
-  db = mongoose.connection(uri)
-  mongoose.model('Item', ItemSchema)
-  db.model('Item').insertMany(inventory)
+  let db = mongoose.connections[0]
+
+  db.model('Item', ItemSchema).insertMany('../db/inventory.json')
 }
