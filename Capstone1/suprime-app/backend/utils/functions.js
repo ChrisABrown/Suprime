@@ -1,7 +1,8 @@
 import { response } from 'express'
 import mongoose from 'mongoose'
+import fs from 'fs'
 import  ItemSchema  from '../DAO/models/Item.js'
-import '../db/inventory.json' assert {type: "json"}
+import inventory from '../db/inventory.json' assert {type: "json"}
 
 let res = response
 
@@ -23,5 +24,5 @@ export const checkUser = (user) => {
 export const fillInventory = () => {
   let db = mongoose.connections[0]
 
-  db.model('Item', ItemSchema).insertMany('../db/inventory.json')
+  db.model('Item').insertMany(inventory)
 }
