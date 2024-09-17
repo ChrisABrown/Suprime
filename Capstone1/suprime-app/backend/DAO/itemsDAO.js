@@ -1,5 +1,5 @@
 import Item from './models/Item.js'
-import { fillInventory } from '../utils/functions.js'
+
 
 export default class ItemsDAO {
   static async apiGetAllItemsByCategory({
@@ -20,7 +20,6 @@ export default class ItemsDAO {
     }
 
     try {
-fillInventory()
       const itemsList = await Item.find(query).limit(itemsPerPage)
       const totalNumItems = await Item.countDocuments(query)
       return { totalNumItems, itemsList }

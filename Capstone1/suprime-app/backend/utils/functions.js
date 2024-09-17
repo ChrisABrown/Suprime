@@ -1,7 +1,5 @@
 import { response } from 'express'
 import mongoose from 'mongoose'
-import fs from 'fs'
-import  ItemSchema  from '../DAO/models/Item.js'
 import inventory from '../db/inventory.json' assert {type: "json"}
 
 let res = response
