@@ -22,6 +22,20 @@ body {
   opacity: 50%;
 }
 
+#login {
+  background: rgb(236, 4, 4);
+  font-family: Futura;
+  color: rgb(236, 4, 4);
+  border: none;
+}
+
+#login:hover{
+  color:#fff;
+  transition: 5ms ease-in-out;
+
+}
+
+
 .suprime-red-box {
   background: rgb(236, 4, 4);
   padding: 2em;
