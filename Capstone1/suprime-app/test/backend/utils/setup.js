@@ -11,6 +11,7 @@ let token
 
 const uri = process.env.SUPRIME_DB_URI
 
+
 export const init = async () => {
   connection = mongoose.connect(uri)
   db = mongoose.connection
