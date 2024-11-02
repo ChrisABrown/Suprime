@@ -34,7 +34,6 @@ export const apiMessageTests = (agent) => {
     let messages = body.messages
     let filters = body.filters
     let totalNumMessages = body.totalNumMessages
-
     expect(messages).toBe('object')
     expect(filters).toEqual({ messageType: randomType })
     expect(totalNumMessages).toEqual(body.messages.length)
